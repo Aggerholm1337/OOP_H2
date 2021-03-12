@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vehicle_Program.Vehicle" Collapsed="true">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAkRAAADEgEAAAACAQgAAgUDEAAEQRAAAAAAAg=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Auction" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Vehicle_Program.PassengerCar" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAgAAAAIBAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PassengerCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehicle_Program.PrivatePassengerCar" Collapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>PassengerCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehicle_Program.CommercialPassengerCar" Collapsed="true">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAEQQAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PassengerCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehicle_Program.User" Collapsed="true">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUAAAABAAAAEAggAQAAIAEIAAAADAAAACAAAAAg=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Vehicle_Program.corporateUser" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAKAAAAFAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehicle_Program.privateUser" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehicle_Program.AuctionHouse" Collapsed="true">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AuctionHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehicle_Program.Auction" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAAAAAIABAACAAQAAAABAAAAAQAAAAAAAAACAA=</HashCode>
+      <FileName>Auction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Vehicle_Program.Bus" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgEAAgIBAAAEAAAAAAAgAggAIQACAAAAAAAAAAA=</HashCode>
+      <FileName>Bus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehicle_Program.Truck" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAEEQAAABEAAAgAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Truck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Vehicle_Program.IBuyerModel">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBuyerModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Vehicle_Program.ISellerModel" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ISellerModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
