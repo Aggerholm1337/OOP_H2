@@ -1,4 +1,4 @@
-#OOP Design principper
+##OOP Design principper
 
 #Høj kobling:
 Høj kobling betyder f.eks. en klasse har brug for viden om hvordan en anden klasse er og en ændring i den anden klasse kan påvirke den første klasse. 
