@@ -1,23 +1,23 @@
-##OOP Design principper
+#OOP Design principper
 
-#Høj kobling:
-Høj kobling betyder f.eks. en klasse har brug for viden om hvordan en anden klasse er og en ændring i den anden klasse kan påvirke den første klasse. 
-Så at forstå den første klasse skal man også forstå den anden klasse.
+#HÃ¸j kobling:
+HÃ¸j kobling betyder f.eks. en klasse har brug for viden om hvordan en anden klasse er og en Ã¦ndring i den anden klasse kan pÃ¥virke den fÃ¸rste klasse. 
+SÃ¥ at forstÃ¥ den fÃ¸rste klasse skal man ogsÃ¥ forstÃ¥ den anden klasse.
 
-- Vores Bus, Truck, og PassengerCar er høj kobling, da ændringerne vi laver deri, påvirker vehicle klassen.
+- Vores Bus, Truck, og PassengerCar er hÃ¸j kobling, da Ã¦ndringerne vi laver deri, pÃ¥virker vehicle klassen.
 
 #Lav kobling:
-For at få lav kobling skal vores moduler(Ansvarsområder) være 
-uafghængige af hinanden, og ved ændringer i moduler og klasser, påvirke andet kode så lidt som muligt.
+For at fÃ¥ lav kobling skal vores moduler(AnsvarsomrÃ¥der) vÃ¦re 
+uafghÃ¦ngige af hinanden, og ved Ã¦ndringer i moduler og klasser, pÃ¥virke andet kode sÃ¥ lidt som muligt.
 
-Lav kobling betyder at den første klasse ikke burde blive påvirket af ændringer i den anden klasse.
+Lav kobling betyder at den fÃ¸rste klasse ikke burde blive pÃ¥virket af Ã¦ndringer i den anden klasse.
 
-- Vores User modul og vores Vehicle Modul er lave koblinger, da ændringerne vi laver heri, ikke påvirke andre moudler i programmet, de er sepereret i ansvarsområder.
+- Vores User modul og vores Vehicle Modul er lave koblinger, da Ã¦ndringerne vi laver heri, ikke pÃ¥virke andre moudler i programmet, de er sepereret i ansvarsomrÃ¥der.
 
 modsatte af lav kobling.
-#Høj samhørighed:
-Høj samhørighed er stort set det modsatte af lav kobling, vi vil gerne have sammenhæng i og mellem klasserne, men opdelt inden for hvert ansvarsområde.
+#HÃ¸j samhÃ¸righed:
+HÃ¸j samhÃ¸righed er stort set det modsatte af lav kobling, vi vil gerne have sammenhÃ¦ng i og mellem klasserne, men opdelt inden for hvert ansvarsomrÃ¥de.
 
-Høj samhørighed betyder at f.eks. en klasse kun har at gøre med sit eget ansvarsområde, f.eks. vehicle og ikke vehicle samt user.
+HÃ¸j samhÃ¸righed betyder at f.eks. en klasse kun har at gÃ¸re med sit eget ansvarsomrÃ¥de, f.eks. vehicle og ikke vehicle samt user.
 
-- Vores Vehicle klasse, er høj samhørighed, da de skaber sammenhængen mellem Bus, Truck, PassengerCar. Uden at påvirke Users eller andre moduler.
+- Vores Vehicle klasse, er hÃ¸j samhÃ¸righed, da de skaber sammenhÃ¦ngen mellem Bus, Truck, PassengerCar. Uden at pÃ¥virke Users eller andre moduler.
